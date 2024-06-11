@@ -56,3 +56,13 @@ const navigateButton = document.getElementById("navigateButton");
 navigateButton.addEventListener("click", function () {
   window.location.href = "projects.html";
 });
+
+/*  */
+const scrollBtn = document.querySelectorAll(".sbtn");
+const sectionScrolled = document.getElementById("contact");
+
+scrollBtn.forEach((btn) =>
+  btn.addEventListener("click", () => {
+    sectionScrolled.scrollIntoView({ behavior: "smooth" });
+  })
+);

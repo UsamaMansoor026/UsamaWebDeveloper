@@ -638,6 +638,9 @@ span {
 /* ------------------------- */
 /* Projects Section Styling */
 /* ----------------------- */
+#projects {
+  background: var(--sec-bg-color);
+}
 .image-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
