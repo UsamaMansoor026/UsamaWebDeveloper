@@ -715,8 +715,9 @@ span {
 }
 
 @media (max-width: 400px) {
-  .image-container {
-    grid-template-columns: repeat(1, 1fr);
+  .image-container,
+  .certificate {
+    grid-template-columns: repeat(1, 1fr) !important;
   }
 
   .outer-wrapper {
